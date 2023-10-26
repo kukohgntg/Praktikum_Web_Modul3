@@ -1,11 +1,13 @@
 import "./App.css";
+import Container from "./components/Container";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-
 function App() {
   return (
     <div>
-      <h1>kiww</h1>
       <NavBar />
+      <Container />
+      <Footer />
     </div>
   );
 }
