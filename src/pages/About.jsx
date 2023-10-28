@@ -5,9 +5,7 @@ import NavBar from "../components/NavBar";
 const About = () => {
   return (
     <div>
-      <NavBar/>
-      <Contain_About/>
-      <Footer />
+      <Contain_About />
     </div>
   );
 };

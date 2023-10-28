@@ -5,9 +5,7 @@ import Hero from "../components/Content_Home";
 const Home = () => {
   return (
     <div>
-      <NavBar />
       <Hero />
-      <Footer />
     </div>
   );
 };
