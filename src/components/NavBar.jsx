@@ -4,6 +4,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
+// import "../style/NavBar.css";
+// import style from "../style/NavBar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../style/NavBar.css"
 
 const NavBar = () => {
   return (
@@ -19,10 +23,12 @@ const NavBar = () => {
             <Nav.Link href="/About">About Us</Nav.Link>
             <Nav.Link href="#action2">Contact</Nav.Link>
           </Nav>
-          <Button className="me-2" href="#">
+          <Button className="custombtnlogin" href="#">
             Login
           </Button>
-          <Button href="#">Sign Up</Button>
+          <Button className="custombtnsignup" href="#">
+            Sign Up
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
