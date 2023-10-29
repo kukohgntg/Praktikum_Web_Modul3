@@ -1,11 +1,8 @@
+import { Container, Row, Col, Image } from "react-bootstrap";
 import ilab from "../assets/logo-ilab.png";
 import facebook from "../assets/logo-facebook.png";
 import twitter from "../assets/logo-twitter.png";
 import instagram from "../assets/logo-instagram.png";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 
 const Footer = () => {
   return (

@@ -1,9 +1,5 @@
+import { Navbar, Nav, Container, Image, Button } from "react-bootstrap";
 import ilab from "../assets/logo-ilab.png";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import Image from "react-bootstrap/Image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/NavBar.css";
 
@@ -11,7 +7,7 @@ const NavBar = () => {
   return (
     <Navbar fixed="top" expand="lg" className="bg-body-tertiary ">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/About">
           <Image src={ilab} height="40px" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -29,10 +25,10 @@ const NavBar = () => {
               </Nav.Item>
             </Nav>
           </Nav>
-          <Button className="custombtnlogin" href="#">
+          <Button className="custom-btnlogin" href="#">
             Login
           </Button>
-          <Button className="custombtnsignup" href="#">
+          <Button className="custom-btnsignup" href="#">
             Sign Up
           </Button>
         </Navbar.Collapse>

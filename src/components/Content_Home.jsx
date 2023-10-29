@@ -1,6 +1,5 @@
-import Image from "react-bootstrap/Image";
+import { Carousel, Image } from "react-bootstrap";
 import hero from "../assets/hero.jpg";
-import Carousel from "react-bootstrap/Carousel";
 
 const Content_Home = () => {
   return (
