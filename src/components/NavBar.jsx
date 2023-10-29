@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 // import "../style/NavBar.css";
 // import style from "../style/NavBar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../style/NavBar.css"
+import "../style/NavBar.css";
 
 const NavBar = () => {
   return (
@@ -21,7 +21,7 @@ const NavBar = () => {
           <Nav className="mx-auto" style={{ maxHeight: "100px" }} navbarScroll>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/About">About Us</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav>
           <Button className="custombtnlogin" href="#">
             Login
