@@ -4,8 +4,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
-// import "../style/NavBar.css";
-// import style from "../style/NavBar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/NavBar.css";
 
@@ -30,9 +28,6 @@ const NavBar = () => {
                 <Nav.Link href="/Contact">Contact</Nav.Link>
               </Nav.Item>
             </Nav>
-            {/* <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/About">About Us</Nav.Link>
-            <Nav.Link href="/Contact">Contact</Nav.Link> */}
           </Nav>
           <Button className="custombtnlogin" href="#">
             Login
